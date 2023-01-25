@@ -401,3 +401,40 @@ footer.footerContainer {
     padding-bottom: 4em;
     padding-top: 4.75em;
 }
+
+@media (max-width: 1273px) {
+    section.innerHeader {
+     width: 60%;
+    }
+     
+} 
+
+@media (max-width: 1066px) {
+section.innerHeader {
+    width: 70%;
+}
+}
+
+@media (max-width: 920px) {
+section.innerHeader {
+    width: 80%;
+}
+}
+
+
+@media (max-width: 920px) {
+section.innerHeader {
+    width: 90%;
+
+}
+img.logo {
+    width: 50px;
+    height: 100%;
+}
+}
+
+@media (max-width: 800px) {
+    section.innerHeader {
+        width: 98%;
+    }
+}
