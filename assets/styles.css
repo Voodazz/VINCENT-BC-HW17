@@ -437,4 +437,8 @@ img.logo {
     section.innerHeader {
         width: 98%;
     }
-} 
+    .myWorkPic1 img {
+        width: 100%;
+      
+    }
+}  
