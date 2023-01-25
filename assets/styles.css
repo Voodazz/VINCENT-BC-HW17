@@ -413,14 +413,34 @@ footer.footerContainer {
 section.innerHeader {
     width: 70%;
     }
-}
 
-@media (max-width: 920px) {
-section.innerHeader {
-    width: 80%;
+    section.aboutMe {
+
+        flex-direction: column;
     }
 }
 
+@media (max-width: 1020px) {
+    .moreInfo {
+        padding: 0;
+        box-sizing: border-box;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .moreInfo h3{
+        text-align:center;
+    }
+    .tooBlock1 img {
+  
+        width: 37%;
+    }
+    .mePic img {
+        width: 50%;
+        margin-bottom: 2em;
+    }
+}
+ 
 
 @media (max-width: 920px) {
 section.innerHeader {
@@ -441,4 +461,20 @@ img.logo {
         width: 100%;
       
     }
+    .moreTools {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+  
+    .aboutMeTxt {
+        width: 90%;
+        padding: 0 0 0 2em;
+        
+    }
+
+  
 }  
