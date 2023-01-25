@@ -439,6 +439,16 @@ section.innerHeader {
         width: 50%;
         margin-bottom: 2em;
     }
+    .aboutMeTxt {
+       
+        padding: 0 0 0 2em;
+        
+    }
+    section.aboutMe {
+  
+        width: 85%;
+       
+    }
 }
  
 
