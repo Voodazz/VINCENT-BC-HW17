@@ -412,13 +412,13 @@ footer.footerContainer {
 @media (max-width: 1066px) {
 section.innerHeader {
     width: 70%;
-}
+    }
 }
 
 @media (max-width: 920px) {
 section.innerHeader {
     width: 80%;
-}
+    }
 }
 
 
@@ -430,11 +430,11 @@ section.innerHeader {
 img.logo {
     width: 50px;
     height: 100%;
-}
+    }
 }
 
 @media (max-width: 800px) {
     section.innerHeader {
         width: 98%;
     }
-}
+} 
