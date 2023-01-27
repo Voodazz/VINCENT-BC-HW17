@@ -405,11 +405,12 @@ footer.footerContainer {
     padding: 0 2em 0 2em;
 }
 
-
+ 
 .pageWrapper4b {
     background: url(images/contactBG2.png) 50% bottom no-repeat;
     padding-bottom: 4em;
     padding-top: 4.75em;
+    background: #f5f0e7; 
 }
 
 @media (max-width: 1273px) {
