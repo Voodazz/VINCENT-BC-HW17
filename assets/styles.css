@@ -277,6 +277,7 @@ section.aboutMe {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: ease all .5s;
 }
 
 .aboutMeTxt {
@@ -284,6 +285,7 @@ section.aboutMe {
     padding: 0 0 0 6em;
     box-sizing: border-box;
     font-size: 1.25em;
+    transition: ease all .5s;
 }
 
 section.aboutMe {
@@ -299,17 +301,20 @@ section.aboutMe {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    transition: ease all .5s;
 }
 
 .aboutMeTxt {
     width: 100%;
     padding: 0 0 0 6em;
     box-sizing: border-box;
+    transition: ease all .5s;
 }
 
 .pageWrapper2 {
     background: #CE6352;
     color: #fff;
+    transition: ease all .5s;
 }
 
 .pageWrapper2, .pageWrapper3 {
