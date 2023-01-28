@@ -492,8 +492,9 @@ img.logo {
         -ms-transform: translateY(-48%);
         transform: translateY(40%);
         /* padding: 0 2em 0 2em; */
-        width: 25;
+       
     }
+
 
     .moreTools {
         display: flex;
@@ -509,9 +510,12 @@ img.logo {
         padding: 0 0 0 2em;
         
     }
-
+    
+ 
   
 }  
+
+
 
 @media (max-width: 599px){
     .tooBlock1 {
@@ -541,3 +545,21 @@ img.logo {
     }
 
 }
+@media (max-width: 500px){
+ul.projectDetails2 li::before {
+    content: "";
+
+    left: 28px;
+ 
+}
+.heroBlurb {
+
+    -ms-transform: translateY(-48%);
+    transform: translateY(25%);
+  
+}
+}
+
+
+
+
