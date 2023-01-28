@@ -18,6 +18,8 @@ h1 {
 
 .pageWrapper3 h1 {
     margin: 0;
+    line-height: 56px;
+    
 }
 .pageWrapper3{background:#EEB4A2;}
 .pageWrapper3 p {
@@ -288,6 +290,7 @@ section.aboutMe {
     box-sizing: border-box;
     font-size: 1.25em;
     transition: ease all .25s;
+    line-height: 1.75em;
 }
 
 section.aboutMe {
@@ -441,6 +444,7 @@ section.innerHeader {
     }
     .moreInfo h3{
         text-align:center;
+        line-height: 40px;
     }
     .tooBlock1 img {
   
@@ -492,6 +496,8 @@ img.logo {
         -ms-transform: translateY(-48%);
         transform: translateY(40%);
         /* padding: 0 2em 0 2em; */
+        line-height: 48px;
+        text-align: center;
        
     }
 
