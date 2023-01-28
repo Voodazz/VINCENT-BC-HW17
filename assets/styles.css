@@ -412,8 +412,9 @@ footer.footerContainer {
 .pageWrapper4b {
     background: url(images/contactBG2.png) 50% bottom no-repeat;
     padding-bottom: 4em;
-    padding-top: 4.75em;
-    background: #f5f0e7; 
+    padding: 4.75em 1em 4.75em 1em;
+    background: #f5f0e7;
+    box-sizing: border-box;
 }
 
 @media (max-width: 1273px) {
@@ -516,10 +517,17 @@ img.logo {
         padding: 0 0 0 2em;
         
     }
+    section.artWork {
+         width: 100%;
+         flex-direction: column;
+        align-items: center;
+         padding: 8px 0 6em 8px;
+        }
+    }
     
  
   
-}  
+
 
 
 
@@ -564,6 +572,32 @@ ul.projectDetails2 li::before {
     transform: translateY(25%);
   
 }
+ul.projectDetails2 li::before {
+  
+    display:none;
+}
+ul.projectDetails2 li{
+    margin:0;
+}
+}
+
+@media (max-width: 400px){
+.mePic img {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+h1 {
+
+    margin: 0;
+}
+.aboutMeTxt {
+    width: 100%;
+    padding: 0;
+}
+
+
+
 }
 
 
