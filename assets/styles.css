@@ -290,11 +290,11 @@ section.aboutMe {
     transition: ease all .25s;
 }
 
-.aboutMeTxt {
+.aboutMeTxt { 
     width: 80%;
     padding: 0 0 0 6em;
     box-sizing: border-box;
-    font-size: 1.25em;
+    font-size: 16px;
     transition: ease all .25s;
     line-height: 1.75em;
 }
